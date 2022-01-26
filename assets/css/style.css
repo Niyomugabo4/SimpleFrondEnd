@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,400;0,700;1,500&display=swap');
+body{
+    overflow-x:hidden;
+    background-color: rgb(243, 243, 243);
+    font-family: 'Kanit', sans-serif;
+    background-image: url("../images/sky.jpg");
+    background-size:100% 25%;
+    background-repeat: no-repeat;
+    
+}
+.booknow_badge{
+    background-color: rgb(9, 9, 78);
+    padding:10px 20px;
+    color:white;
+    font-size: small;
+    border-radius: 20px;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.sidenavigation{
+    height:100vh;
+    background-image: url("../images/bg.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.sidenavigation .sidenav_head{
+    margin-top:15px;
+}
+
+.sidenavigation .go_premium .smaller {
+    font-size: 10px;
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    left:15px
+}
+.sidenavigation .go_premium  {
+
+border-radius:100px;
+padding: 10px;
+}
+
+
+.sidenav {
+    width: 200px;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav ul li {
+      
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-size: 17px;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .sidenav ul  .selected {
+      background-color: rgba(70, 107, 157,0.5);
+  }
+  .sidenav ul li:hover {
+      background-color: rgb(70, 107, 157);
+  }
+
+
+
+
+
+
+
+.owl-carousel{
+    width: 1000px;
+}
+.item{
+    box-shadow: 0px 0px  5px #222;
+    border-radius: 10px;
+    height: 120px;
+    width: 350px;
+}
+
+
+
+.item .domestic {
+    font-size: small;
+}
+
+.item .post{
+    padding:10px 15px;
+}
+.item .post_img{
+    box-shadow: 0px 0px 3px #000;
+    height:100%;
+    display:inline-block;
+    
+    border-radius: 10px;
+}
+
+.item .row .city{
+    font-size: 11px;
+}
+.item .row .discount{
+    font-weight: bold;
+}
+.item .row .domestic{
+    font-size:11px;
+}
+
+
+.coupon_section{
+    font-size: 11px;
+}
+
+.coupon_section .book{
+    background-color: #fce7e7;
+    color:rgb(236, 10, 10);
+    padding: 5px 15px ;
+    
+}
+
+.banner_bottom{
+    margin-top:30px;
+    height: 120px;
+    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 1% 80%, 0 50%, 1% 20%); */
+    background-size: 100% 300%;
+    background-repeat: no-repeat;   
+    background-image: url("../images/banner.png");
+    background-position: 0px -10px;
+    }
+
+    input{
+        font-family:"verdana",serif;
+        font-weight:bold;
+        color:#000 !important;
+        border:none !important;
+        background-color:transparent !important;
+    }
+
+    .picker{
+        position:absolute;
+        left:0;
+        width:100%;
+        height:50%;
+        text-align: right;
+    }
+
+
+    .top_left_nav{
+       font-size: 12px;
+    }
+
+    .top_left_nav .partner {
+        background-color: rgba(255, 255, 255, 0.2);
+        /* width: 220px; */
+        color: white;
+    }
+
+    .top_left_nav .partner,
+    .top_left_nav .partner i {
+        border-radius: 500px;
+    }
